@@ -1,0 +1,26 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AntDuplicateTargetsInspection" enabled="true" level="GRAMMAR_ERROR" enabled_by_default="true" editorAttributes="GRAMMAR_ERROR" />
+    <inspection_tool class="AntMissingPropertiesFileInspection" enabled="true" level="GRAMMAR_ERROR" enabled_by_default="true" editorAttributes="GRAMMAR_ERROR" />
+    <inspection_tool class="AntResolveInspection" enabled="true" level="GRAMMAR_ERROR" enabled_by_default="true" editorAttributes="GRAMMAR_ERROR" />
+    <inspection_tool class="MavenDuplicateDependenciesInspection" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO">
+      <scope name="Project Files" level="WARNING" enabled="true" editorAttributes="DEPRECATED_ATTRIBUTES" />
+    </inspection_tool>
+    <inspection_tool class="MavenDuplicatePluginInspection" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO">
+      <scope name="Project Files" level="WARNING" enabled="true" editorAttributes="DEPRECATED_ATTRIBUTES" />
+    </inspection_tool>
+    <inspection_tool class="MavenModelInspection" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO">
+      <scope name="Project Files" level="WARNING" enabled="true" editorAttributes="DEPRECATED_ATTRIBUTES" />
+    </inspection_tool>
+    <inspection_tool class="MavenParentMissedVersionInspection" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO">
+      <scope name="Project Files" level="WARNING" enabled="true" editorAttributes="DEPRECATED_ATTRIBUTES" />
+    </inspection_tool>
+    <inspection_tool class="MavenPropertyInParent" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO">
+      <scope name="Project Files" level="WARNING" enabled="true" editorAttributes="DEPRECATED_ATTRIBUTES" />
+    </inspection_tool>
+    <inspection_tool class="MavenRedundantGroupId" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO">
+      <scope name="Project Files" level="WARNING" enabled="true" editorAttributes="DEPRECATED_ATTRIBUTES" />
+    </inspection_tool>
+  </profile>
+</component>
