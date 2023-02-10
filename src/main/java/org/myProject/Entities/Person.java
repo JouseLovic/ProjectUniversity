@@ -1,4 +1,4 @@
-package org.myProject.Model;
+package org.myProject.Entities;
 
 public abstract class Person {
 

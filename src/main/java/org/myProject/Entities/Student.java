@@ -1,10 +1,10 @@
-package org.myProject.Model;
+package org.myProject.Entities;
 
 public class Student extends Person{
 
-    private int id;
-    private int idGroup;
-    private String career;
+    private static int id;
+    private static int idGroup;
+    private static String career;
 
     public Student(String name, String cedula, String email, int id, int idGroup) {
         super(name, cedula, email);
@@ -12,7 +12,7 @@ public class Student extends Person{
         this.idGroup = idGroup;
     }
 
-    public int getId() {
+    public static int getId() {
         return id;
     }
 
@@ -20,7 +20,7 @@ public class Student extends Person{
         this.id = id;
     }
 
-    public int getIdGroup() {
+    public static int getIdGroup() {
         return idGroup;
     }
 
@@ -28,7 +28,7 @@ public class Student extends Person{
         this.idGroup = idGroup;
     }
 
-    public String getCareer() {
+    public static String getCareer() {
         return career;
     }
 

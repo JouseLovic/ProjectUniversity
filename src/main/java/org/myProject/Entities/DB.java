@@ -1,4 +1,4 @@
-package org.myProject.Model;
+package org.myProject.Entities;
 
 import javax.swing.*;
 import java.sql.Connection;
@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class DB {
 
-    private String uri = "jdbc:mysql://localhost:3306/University";
+    private String uri = "jdbc:mysql://localhost:3306/university";
     private String user = "root";
     private String pass = "inari-sama100";
 

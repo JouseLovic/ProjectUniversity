@@ -19,7 +19,7 @@ public class ControllerPostTeacher {
         panelP = panel.getPanel();
     }
 
-    public static PostStudent creaPanel(JPanel panel, int ID, String title, String texto){
+   /* public static PostStudent creaPanel(JPanel panel, int ID, String title, String texto){
         PostStudent PanelPrueba = new PostStudent(ID, title, texto);
         PanelPrueba.setBounds(50+positionX,150,100,200);
         PanelPrueba.setVisible(true);
@@ -29,7 +29,7 @@ public class ControllerPostTeacher {
         panel.repaint();
         return PanelPrueba;
 
-    }
+    }*/
 
 
     public static void eliminaPanel(JPanel panelContainer) {

@@ -27,10 +27,20 @@ public class PostStudent extends JPanel implements Serializable {
     private JButton moreButton;
     private JTextPane textArea;
 
-    public PostStudent(int ID, String titulo, String texto){
+    public PostStudent(int ID, String titulo, String texto,
+                       String url,
+                       Date initialDate,
+                       Date finishisDate,
+                       int idTeacher,
+                       int idGroup){
         this.ID = ID;
         this.title = titulo;
         this.text = texto;
+        this.url = url;
+        this.initialDate = initialDate;
+        this.finishDate = finishDate;
+        this.idTeacher = idTeacher;
+        this.idGroup = idGroup;
         this.setOpaque(false);
         init();
     }
@@ -87,7 +97,7 @@ public class PostStudent extends JPanel implements Serializable {
         return title;
     }
 
-    public String getText() {
+    public String getContent() {
         return text;
     }
 
